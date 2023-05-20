@@ -95,11 +95,11 @@ section{
 
 .btn{
 	margin-top: 1rem;
-	border-radius:.4rem ;
+	border-radius:.7rem ;
 	font-size: 1.5rem;
-	font-weight: 400;
+	font-weight: 500;
 	cursor: pointer;
-	padding: .5rem .2rem;
+	padding: .4rem .1rem;
 	background: var(--light-red);
 	color: var(--blue);
 }
@@ -370,7 +370,7 @@ color: var(--red);
 
 .Sunscreen .box-container .box i{
 color: var(--blue);
-font: size 2.5rem;
+font: size 1.5rem;
 height: 6rem;
 width: 6rem;
 line-height: 6rem;
@@ -568,15 +568,184 @@ padding: 1rem 0;
 		color: var(--blue );
 		}
 
+.newsletter{
+	background: url(h5.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 6rem 2rem;
+}
+.newsletter h3{
+	font-size: 3rem;
+	color: var(--blue);
+}
 
+.newsletter p{
+	padding: 1rem 0;
+	font-size: 1.5rem;
+	color: var(--light-color);
+}
 
+.newsletter form{
+	max-width: 60rem;
+	margin:1rem auto;
+    display: flex;
+	height: 5rem;
+    overflow: hidden;
+	border-radius: 5rem;
+	box-shadow: var(--box-shadow);
+}
 
+.newsletter form input[type="email"]{
+	width: 100%;
+	height: 100%;
+	color: var(--blue);
+	font-size: 1.6rem;
+	padding:0 2rem;
+	text-transform: none;
+}
 
+.newsletter form input[type="submit"]{
+	width: 17rem;
+	height: 100%;
+	color: var(--blue);
+	font-size: 1.7rem;
+	cursor: pointer;
+	background: var(--light-red);
+}
 
+.newsletter form input[type="submit"]:hover{
+	background: var(--red);
+}
 
+.reviews .reviews-slider{
+	padding-bottom: 3rem;
+}
 
+.reviews .reviews-slider .box{
+	margin: 2rem 0;
+	padding: 2rem ;
+	opacity: .4;
+	transform: scale(.9);
+	text-align: center;
+}
 
+.reviews .reviews-slider .swiper-slide-active{
+	opacity: 1;
+	transform: scale(1);
+	border: var(--border);
+	box-shadow: var(--box-shadow);
+}
 
+.reviews .reviews-slider .box img{
+width: 7rem;
+height: 7rem;
+margin-bottom: 1rem;
+border-radius: 50%;
+}
+
+.reviews .reviews-slider .box .content p{
+	padding: 1rem 0;
+	font-size: 1.4rem;
+	color: var(--light-color);
+}
+
+.reviews .reviews-slider .box .content h3{
+	font-size: 2.2rem;
+	color: var(--blue);
+}
+
+.reviews .reviews-slider .box .content .stars i{
+	font-size: 1.7rem;
+	color: var(--red);
+}
+
+.contact .row{
+	gap: 1.5rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact .row .map{
+	flex: 1 1 42rem;
+	width: 100%;
+	border: var(--border);
+	padding: 2rem;
+	box-shadow: var(--box-shadow);
+	border-radius: .5rem;
+}
+
+.contact .row form{
+	flex: 1 1 42rem;
+	border: var(--border);
+	padding: 2rem;
+	box-shadow: var(--box-shadow);
+	border-radius: .5rem;
+	text-align: center;
+}
+
+.contact .row form h3{
+	font-size: 3rem;
+	color: var(--blue);
+}
+
+.contact .row form .box{
+	width: 100%;
+	padding: 1rem;
+	margin: 2rem 0;
+	border: var(--border);
+	font-size: 1.6rem;
+	text-transform: none;
+	color: var(--blue);
+	border-radius: .5rem;
+}
+
+.contact .row form textarea{
+	resize: none;
+	height: 15rem;
+}
+
+.footer{
+	background:var(--light-red);
+}
+
+.footer .box-container{
+	display: grid;
+	gap: 1.2rem;
+	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.footer .box-container .box h3{
+	color: var(--blue);
+	padding: 1rem 0;
+    font-size: 2.0rem;
+}
+
+.footer .box-container .box a{
+	padding: 1rem 0;
+	color: var(--light-color);
+	display: block;
+    font-size: 1.4rem;
+}
+
+.footer .box-container .box a i{
+	color: var(--blue);
+	padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i{
+	padding-right: 2rem;
+}
+
+.footer .create{
+	font-size: 2rem;
+	padding: 1rem;
+	padding-top: 2.5rem;
+	margin-top: 2rem;
+	text-align: center;
+	border-top: var(--border);
+	color: var(--blue);
+}
 
 
 
