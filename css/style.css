@@ -99,7 +99,7 @@ section{
 	font-size: 1.5rem;
 	font-weight: 500;
 	cursor: pointer;
-	padding: .4rem .1rem;
+	padding: 0px 8px 0px 8px;
 	background: var(--light-red);
 	color: var(--blue);
 }
