@@ -29,6 +29,7 @@ else{
     navber.classList.remove('active'); 
 
 }
+
 window.onload = () =>{
 
 if (window.scrollY > 0) {
@@ -43,8 +44,8 @@ document.querySelector('.face').onmousemove = (e) =>{
  document.querySelectorAll('face-parallax').forEach(elm =>{
     let speed = elm.getAttribute('data-speed');
 
-    let x = (window.innerWidth - e.pageX * speed) / 90;
-    let y = (window.innerHeight - e.pageY * speed) / 90;
+    let x = (window.innerWidth - e.pageX * speed) / 100;
+    let y = (window.innerHeight - e.pageY * speed) / 100;
 
     elm.style.transform = 'translateX(${y}px) translateY(${x}px)';
 

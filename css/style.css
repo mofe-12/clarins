@@ -569,7 +569,7 @@ padding: 1rem 0;
 		}
 
 .newsletter{
-	background: url(h5.jpg) no-repeat;
+	background: url(images/h5.jpg) no-repeat;
 	background-position: center;
 	background-size: cover;
 	text-align: center;
@@ -577,7 +577,7 @@ padding: 1rem 0;
 }
 .newsletter h3{
 	font-size: 3rem;
-	color: var(--blue);
+	color:whitesmoke;
 }
 
 .newsletter p{
